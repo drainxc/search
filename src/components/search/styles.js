@@ -16,6 +16,7 @@ export const MainDiv = styled.div`
     color: #afafaf;
   }
   & button {
+    cursor: pointer;
     background-color: #0090ff;
     color: white;
     border: none;
