@@ -23,7 +23,7 @@ export default function Information() {
         </div>
         <div>
           <div className="detail">설명</div>
-          <div className="contents">ㅐㅓ댜운파ㅓㅜ대ㅑㅍㅇ랴ㅐㅓㅡㅐ쟏릉니ㅏㅡㅑㅐㄷㄹ</div>
+          <div className="contents">ㅐㅓ댜운파ㅓㅜ대ㅑㅍㅇ랴ㅐㅓsakfjalksdjfaklsdjfklajsdklfjaklsdfjkasdjflkasdjflㅁㄴ론어ㅏ로ㅜㅏㅓㄴ오럼농럼노아ㅓㄹ몬아ㅓ로마ㅓㄴ올마ㅣㅘㅓㅁㄴ오리ㅏkadsjflkjsadlkfjaslkdfjlㅡㅐ쟏릉니ㅏㅡㅑㅐㄷㄹ</div>
         </div>
       </div>
     </S.MainDiv>

@@ -15,7 +15,10 @@ export const MainDiv = styled.div`
   }
   & .information {
     margin: 5% 0% 0% 5%;
+    padding: 1%;
+    width: 60%;
     & div {
+      width: 100%;
       height: 25%;
       font-weight: bold;
       & .detail {
