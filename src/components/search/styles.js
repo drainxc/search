@@ -5,7 +5,7 @@ export const MainDiv = styled.div`
     justify-content: center;
     
     margin-top: 10%;
-    input {
+    & input {
         width: 40%;
         border: #A8A8A8 2px solid;
         padding: 15px;
@@ -14,10 +14,10 @@ export const MainDiv = styled.div`
         margin-right: 10px;
         font-weight: bold;
     }
-    input::placeholder {
+    & input::placeholder {
         color:  #A8A8A8;
     }
-    button {
+    & button {
         background-color: #0090FF;
         color: white;
         border: none;
