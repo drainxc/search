@@ -1,31 +1,31 @@
 import React from "react";
+import * as S from "./styles";
+import image from "../../asset/image.png";
 
 export default function Information() {
   return (
-    <>
-      <div>
-        <img />
+    <S.MainDiv>
+      <div className="cover">
+        <img src={image} alt="" />
       </div>
-      <div>
-        <div  className="title">
+      <div className="information">
+        <div>
           <div className="detail">제목</div>
-          <div>아무것도 없는 책</div>
+          <div className="contents">아무것도 없는 책</div>
         </div>
-        <div className="author">
+        <div>
           <div className="detail">저자</div>
-          <div>김팔복</div>
+          <div className="contents">김팔복</div>
         </div>
-        <div className="price">
+        <div>
           <div className="detail">가격</div>
-          <div>12000원</div>
+          <div className="contents">12000원</div>
         </div>
-        <div className="information">
+        <div>
           <div className="detail">설명</div>
-          <div>
-            ㅐㅓ댜운파ㅓㅜ대ㅑㅍㅇ랴ㅐㅓㅡㅐ쟏릉니ㅏㅡㅑㅐㄷㄹ
-          </div>
+          <div className="contents">ㅐㅓ댜운파ㅓㅜ대ㅑㅍㅇ랴ㅐㅓㅡㅐ쟏릉니ㅏㅡㅑㅐㄷㄹ</div>
         </div>
       </div>
-    </>
+    </S.MainDiv>
   );
 }
