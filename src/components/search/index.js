@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { bookSearch } from "../../lib/api";
 import Information from "../information";
 import NotFoundPage from "../NotFoundPage/index";
-import * as S from "./styles"
+import * as S from "./styles";
 
 export default function Search() {
   const [book, setBook] = useState([]);
