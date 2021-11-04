@@ -1,39 +1,9 @@
 import React from "react";
-import styled from "styled-components";
-
-export const MainDiv = styled.div`
-  display: flex;
-  padding: 0% 20%;
-  & .cover {
-    width: 40%;
-    margin-top: 5%;
-    & img {
-      width: 100%;
-      height: 400px;
-      border: 1px black solid;
-    }
-  }
-  & .information {
-    margin: 5% 0% 0% 5%;
-    padding: 1%;
-    width: 60%;
-    & div {
-      width: 100%;
-      height: 25%;
-      font-weight: bold;
-      & .detail {
-        color: #afafaf;
-      }
-      & .contents {
-        font-size: large;
-      }
-    }
-  }
-`;
+import * as S from "./styles"
 
 export default function Information({ book, reset }) {
   return (
-    <MainDiv>
+    <S.MainDiv>
       {reset ? (
         <>
           <div className="cover">
@@ -61,6 +31,6 @@ export default function Information({ book, reset }) {
       ) : (
         ""
       )}
-    </MainDiv>
+    </S.MainDiv>
   );
 }
