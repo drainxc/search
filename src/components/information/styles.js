@@ -9,22 +9,23 @@ export const MainDiv = styled.div`
     & img {
       width: 100%;
       height: 400px;
-      border: 1px black solid;
     }
   }
   & .information {
-    margin: 5% 0% 0% 5%;
+    margin: 4.5% 0% 0% 5%;
     padding: 1%;
     width: 60%;
     & div {
       width: 100%;
       height: 25%;
-      font-weight: bold;
       & .detail {
         color: #afafaf;
+        font-weight: bold;
       }
       & .contents {
+        margin-top: 5px;
         font-size: large;
+        font-weight: 500;
       }
     }
   }
