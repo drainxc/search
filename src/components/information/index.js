@@ -31,7 +31,6 @@ export const MainDiv = styled.div`
   }
 `;
 
-
 export default function Information({ book, reset }) {
   return (
     <MainDiv>

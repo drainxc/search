@@ -14,7 +14,7 @@ const NotFoundWrapper = styled.div`
 function NotFoundPage() {
   return (
     <NotFoundWrapper>
-      <p>404 NOTFOUND :(</p>
+      <p>404 NOTFOUND! :(</p>
     </NotFoundWrapper>
   );
 }
