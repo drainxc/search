@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { bookSearch } from "../../lib/api";
 import Information from "../information";
-import NotFoundPage from "../NotFoundPage";
+import NotFoundPage from "../NotFoundPage/index";
 import styled from "styled-components";
 const MainDiv = styled.div`
   padding: 0% 20%;
@@ -63,7 +63,7 @@ export default function Search() {
         />
         <button onClick={bookSearchHttpHandler}>검색</button>
       </MainDiv>
-      {book?<Information book={book} reset={reset} />:<NotFoundPage/>}
+      {book ? <Information book={book} reset={reset} /> : <NotFoundPage />}
     </>
   );
 }
