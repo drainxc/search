@@ -47,7 +47,7 @@ export default function Information({ book, reset }) {
             </div>
             <div>
               <div className="detail">저자</div>
-              <div className="contents">{book.authors}</div>
+              <div className="contents">{book.authors[0]}</div>
             </div>
             <div>
               <div className="detail">가격</div>
